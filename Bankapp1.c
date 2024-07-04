@@ -42,9 +42,14 @@ void main()
 				
 				if(user_input==accno)
 				{
-					printf("\n -----------------------------------------------");
-					printf("\n Account Information = %d \t %s \t %ld",accno, accname,balance);
-					printf("\n -----------------------------------------------");
+					printf("\n ------------------------------------------------------------");
+					printf("\n Account Confirmed \n");
+					Sleep(1000);
+					printf("\n Please wait... \n");
+					printf("\n ------------------------------------------------------------");
+					Sleep(6000);
+					printf("\n Account Number : %d \t Account Name : %s \t  Balance :%ld",accno, accname,balance);
+					printf("\n ------------------------------------------------------------");
 				}
 				else
 				{
