@@ -1,3 +1,4 @@
+/*Q22.1*/
 #include <stdio.h>
 
 int main() {
