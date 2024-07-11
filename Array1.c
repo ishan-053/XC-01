@@ -4,8 +4,14 @@
    #include<stdio.h>
    void main()
    {
-   	int   x[5]={123,223,323,423,523};
+   	int   x[5],no;
    	int   add_1,add_2,add_3,add_4,add_5;
+
+	   printf("\n Enter 5 Integer Number"):
+           for(i=0;i<=4;i++)
+		   {
+			   scanf("%d",&no);
+		   }
    	
    	add_1 = (x[0]/100)+(x[0]/10)%10+(x[0]%10);
    	printf("\n Addn of Single Digit for 1st Value : %d",add_1);
